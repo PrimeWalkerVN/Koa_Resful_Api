@@ -1,0 +1,7 @@
+{
+    "name": "KoaApi",
+    "version": "0.1.0",
+    "description": "Koa restApi + sequelize + postgres",
+    "title": "Api koa example",
+    "url" : "/api/v1"
+  }
