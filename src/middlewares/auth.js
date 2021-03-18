@@ -8,7 +8,6 @@ module.exports = async (ctx, next) => {
     ctx.throw(401, 'Authorization header is missing')
   }
   const decodedToken = verify(token)
-  console.log(decodedToken)
   const user = await ctx.db.User.findOne({
     where: {
       id: decodedToken.id,
